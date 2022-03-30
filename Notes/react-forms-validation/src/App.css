@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_container {
+    display: inline-block;
+    padding: 10px 40px 20px 40px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.heading_container, .button_container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2, input, textarea, select {
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.radio_label {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 20px 0 5px;
+}
+
+.radio_input {
+    display: inline-block;
+    padding: 0 10px;
+}

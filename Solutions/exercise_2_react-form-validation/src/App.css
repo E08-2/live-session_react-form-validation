@@ -13,12 +13,12 @@
 .heading_container, .button_container {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 
 h2, input, textarea, select {
     display: block;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 10px 0;
 }
 
 label {
@@ -46,6 +46,7 @@ textarea {
 .errorVisible {
     display: block;
     color: red;
+    padding-bottom: 10px;
 }
 
 .errorInvisible {
